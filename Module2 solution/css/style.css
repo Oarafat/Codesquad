@@ -1,0 +1,88 @@
+body{
+    font-family:serif ;
+    line-height: 1.4em;
+}
+
+.header{
+    text-align: center;
+}
+
+@media (min-width: 0px){
+    .box{
+        background-color: grey;
+        border: 1px solid black;
+        padding: 0px 5px 5px 5px;
+        margin-bottom: 15px;
+        position: relative;
+        float: left;
+        padding-top: 2px;
+    }
+    .box p{
+        text-align: justify;
+        margin-top: 10px;
+    }
+
+}
+.container{
+    max-width: 1500px;
+    margin: auto;
+}
+
+.Tobe{
+    background-color: grey;
+    border: 1px solid black;
+    padding: 0px 10px 5px 5px;
+    margin-bottom: 15px;
+    position: relative;
+    /*float: left*/;
+    display: flex;
+}
+@media (min-width: 992px){
+section #box1{
+    width: 30%;
+    margin-right: 10px;
+    float: left;
+    position: relative;
+    height: auto;
+}
+section #box2{
+    width: 30%;
+    margin-right: 10px;
+    float: left;
+    position: relative;
+    height: auto;
+}
+section #box3{
+    width: 30%;
+    margin-right: 10px;
+    float: left;
+    position: relative;
+    height: auto;}
+.chick{
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: right;
+    background: pink;
+}
+.beef{
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: right;
+    background:brown;
+    color: white;
+}
+.sushi{
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: right;
+    background: palegoldenrod;
+}
+h3{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-bottom: 20px;
+}
+p{
+    padding-top: 10px
+}
