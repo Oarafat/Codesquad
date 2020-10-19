@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bootstrap</title>
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="image/logo.svg" width="40px" height="40px">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Room and Rate</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Facilities</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallary</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+    
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active rborder"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1" class="rborder"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2" class="rborder"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3" class="rborder"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="4" class="rborder"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="image/roberto-nickson-emqnSQwQQDo-unsplash (1).jpg" class="d-block w-100 change" alt="...">
+        <div class="carousel-caption d-sm-block text-up">
+            <h1 class="display-4"><strong>EXPLORE OUR ROOMS</strong></h1>
+            <button class="btn btn-primary btn-sm rborder" type="BOOK NOW" >BOOK NOW</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="image/francesca-tosolini-RP29Wz6mIOA-unsplash.jpg" class="d-block w-100 change" alt="...">
+        <div class="carousel-caption d-sm-block text-up">
+            <h1 class="display-4"><strong>EXPLORE OUR ROOMS</strong></h1>
+            <br>
+            <button class="btn btn-primary btn-sm rborder" type="BOOK NOW">BOOK NOW</button>
+            </br>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="image/hausphotomedia-com-aRT5UCf2MYY-unsplash.jpg" class="d-block w-100 change" alt="...">
+        <div class="carousel-caption d-sm-block text-up">
+            <h1 class="display-4"><strong>EXPLORE OUR ROOMS</strong></h1>
+            <button class="btn btn-primary btn-sm rborder" type="BOOK NOW">BOOK NOW</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="image/isaac-quesada-ckuY9lDiHs8-unsplash.jpg" class="d-block w-100 change" alt="...">
+        <div class="carousel-caption d-sm-block text-up">
+            <h1 class="display-4"><strong>EXPLORE OUR ROOMS</strong></h1>
+            <button class="btn btn-primary btn-sm rborder" type="BOOK NOW" >BOOK NOW</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="image/sidekix-media-hZE6VQVbMco-unsplash.jpg" class="d-block w-100 change" alt="...">
+        <div class="carousel-caption d-sm-block text-up">
+            <h1 class="display-4"><strong>EXPLORE OUR ROOMS</strong></h1>
+            <button class="btn btn-primary btn-sm rborder" type="BOOK NOW">BOOK NOW</button>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <div class="col-12 jumbotron">
+    <h3 class="text-center text-info">RESERVATION</h3>
+<form>
+    <div class="container-fluid">
+        <div class="form-group row">
+            <div class="col-sm-2 col-md-2 col-lg-2">
+                <label for="checkin">Check In</label>
+                <input type="date" id="date" class="form-control"> 
+            </div>
+            <div class="col-sm-2 col-md-2 col-lg-2">
+                <label for="night">Night</label>
+                <input type="number" id="date" class="form-control"> 
+            </div>
+            <div class="col-sm-2 col-md-2 col-lg-2">
+                <label for="checkout">Check Out</label>
+                <input type="date" id="date" class="form-control"> 
+            </div>
+            <div class="col-sm-1 col-md-1 col-lg-1">
+                <label for="children">Adult</label>
+                <input type="number" id="date" class="form-control"> 
+            </div>
+            <div class="col-sm-1 col-md-1 col-lg-1">
+                <label for="adult">Children</label>
+                <input type="number" id="date" class="form-control"> 
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <button class="btn btn-primary prm">Check Availability</button>
+            </div>
+        </div>
+      </div>
+</form>
+</div>
+</div>
+<h3 class="text-info text-center">ROOMS AND RATES</h3>
+<br>
+<p class="text-center text-bold">All rooms are equiped with free Wi-fi, Large Smart Tv, with 21 International station,with central air conditions etc.</p>
+</br>
+<div class="class row">
+<div class="col-md-12">
+<div id="slider1" class="carousel slide mb-2" data-ride="carousel">
+<div class="carousel-inner">
+
+<div class="carousel-item active">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="image/caro2ii.jpg" class="d-inline img-responsive img-fluid img h-80%" alt="...">
+        <h4>Deluxe Rooms-One king bed</h4>
+        <h3>$10,000</h3>
+        <a href="#">Check details--></a>
+
+      </div>
+      
+      <div class="col-md-6">
+        <img src="image/caro22.jpg" class="d-inline img-responsive img-fluid img" alt="...">
+        <h4>Standard Rooms-One king size bed</h4>
+        <h3>$20,000</h3>
+        <a href="#">Check details--></a>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="carousel-item">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="image/isaac-quesada-ckuY9lDiHs8-unsplash.jpg" class="d-inline img-responsive img-fluid img h-80%" alt="...">
+          <h4>Regular Rooms-One king size bed</h4>
+          <h3>$10,000</h3>
+          <a href="#">Check details--></a>
+        
+        </div>
+        <div class="col-md-6">
+          <img src="image/roberto-nickson-emqnSQwQQDo-unsplash (1).jpg" class="d-inline img-responsive img-fluid img h-70%" alt="...">
+          <h4>Standard Rooms-One king size bed</h4>
+          <h3>$20,000</h3>
+          <a href="#">Check details--></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<h3 class="text-center text-info">FACILITIES</h3>
+<div class="container padding-none">
+<div style="background-image: url('image/background.jpg');" class="image-fluid w-100%">
+  
+  <div class="row pl-5 pt-5">
+    <div class="col-md-4 pb-5">
+     <img src="image/cocktail.png" class="h-100% w-70%">
+     <h3 class="text-white">Bar</h3>
+    </div>
+    <div class="col-md-4">
+      <img src="image/images (2).png">
+      <h3 class="text-white">Restaurant</h3>
+    </div>
+      <div class="col-md-4 h-30%">
+        <img src="image/swimming.png">
+        <h3 class="text-white">Pool</h3>
+      </div>
+    </div>
+    <div>
+      <div class="row pl-5 pt-5 pb-5">
+        <div class="col-md-4">
+         <img src="image/image(4).png">
+         <h3 class="text-white">Bar and Fitness</h3>
+        </div>
+        <div class="col-md-4">
+          <img src="image/images (5).png">
+          <h3 class="text-white">Cinema</h3>
+        </div>
+          <div class="col-md-4">
+            <img src="image/image(6).png">
+            <h3 class="text-white">Wi-Fi</h3>
+          </div>
+      </div>
+    </div>
+</div>
+</div>
+
+<!--div class="container">
+  <img src="image/images(1).png" class="image">
+  <div class="overlay">
+    <a href="#" class="icon"></a>
+  </div-->
+<h3 class="text-center text-info">TESTIMONIAL</h3>
+<div class="pl-50% bl-50%">
+<img src="image/cocktail.png">
+</div>
+  <p class="text-center">T Hotel is away from home,it has a serene environment,24 hours supply,free wi-fi and the facilities are top notch.</p>
+  <h5 class="text-center">Innocent Tomunoski,Traveller</h5>                                             
+<div class="jumbotron jumbo padding-none">
+<section class="section pb-5">
+  <h2 class="section-heading h1 pt-4 text-info">Contact us</h2>
+  <div class="row">
+    <div class="col-lg-5 mb-4">
+      <div class="card">
+        <div class="card-body pt-3 bg-info">
+          <!--Body-->
+          <div class="md-form">
+            <label for="name">Name</label>
+            <input type="text" id="form-name" class="form-control">
+          </div>
+
+          <div class="md-form">
+              <label for="email">E-mail</label>
+            <input type="text" id="form-email" class="form-control">
+          </div>
+
+          <div class="lg-form">
+            <label for="Comments">Comments</label>
+            <input type="text" id="form-Subject" class="form-control">
+          </div>
+
+          <div class="md-form mt-4">
+            <i class="fas fa-tag prefix black-text"></i>
+            <button class="btn btn-primary col-md-12 bg-white text-info">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!--Google map-->
+    <div class="col-lg-7">
+      <div id="map-container-google-11" class="z-depth-1-half map-container-6 h-70%">
+        <iframe src="https://maps.google.com/maps?q=new%20delphi&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          frameborder="0" style="border:0" allowfullscreen style="height: 100%;"></iframe>
+      </div>
+  </div>
+</section>
+</div>
+<footer>
+<div class="jumbotron bg-info mt-none pt-100px bt-none">
+<form>
+  <div class="container-fluid">
+      <img src="image/logo.svg" width="60px" height="60px">
+    <div class="form-group row text-white pb-50px">
+      <div class="col-6">
+  <h4 class="text-left">Book Now</h4>
+  <img src="image/location.png" class="w-10px h-10px">
+  <p>No.11 Samivi Ama Port Harcourt,Rivers State,Nigeria.</p>
+  <img src="image/call.jpg" class="w-10px h-10px">
+  <p>+234814567875</p>
+  <p>@babadudu.com</p>
+    </div>
+
+    <div class="col-3">
+  <h4>Customer Care</h4>
+  <p>contact Us</p>
+  <p>Rooms and Rates</p>
+  <p>Facilities</p>
+  <p>Contact Us</p>
+  </div>
+  
+  <div class="col-3">
+  <h4>Facilities</h4>
+  <p>Spa and Gym</p>
+  <p>Restaurant</p>
+  <p>Bar</p>
+  <p>Cinema</p>
+  </div>
+    </div>
+   </div>
+</form>
+</div>
+</footer>
+<script src="js/jquery-3.5.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
